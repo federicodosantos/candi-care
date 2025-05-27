@@ -8,74 +8,76 @@
 </head>
 <body>
     <header>
-        <h1>CANDI-CARE</h1>
-        <p><strong>Call Ambulance and Disease Information</strong></p>
-        <p>Kemudahan Dalam Masalah Kesehatan Anda</p>
-        <button onclick="scrollToSection()">Menu</button>
+        <div class="header-content">
+            <h1>CANDI-CARE</h1>
+            <p><strong>Call Ambulance and Disease Information</strong></p>
+            <p class="tagline">Kemudahan Dalam Masalah Kesehatan Anda</p>
+            <button onclick="scrollToSection()" class="cta-button">Lihat Menu</button>
+        </div>
     </header>
 
-    <main>
+    <main class="container">
         <section id="menu">
-            <div class="card">
-                <img src="assets/call-ambulance.png" alt="Call Ambulance Icon">
-                <h2>Call Ambulance</h2>
-                <ul>
-                    <li>
-                        <a href="https://wa.me/+6285930204792">
-                            <img src="assets/ambulan-pasien-stabil.png" alt="Ambulan Pasien Stabil">
-                            Ambulan Pasien Stabil
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/+6281333466955">
-                            <img src="assets/ambulan-gawat-darurat.png" alt="Ambulan Gawat Darurat">
-                            Ambulan Gawat Darurat
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        
-            <!-- Disease Info Section -->
-            <div class="card">
-                <img src="assets/disease-info.png" alt="Disease Info Icon">
-                <h2>Disease Information</h2>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="assets/jantung.png" alt="Kesehatan Jantung">
-                            Kesehatan Jantung
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/ginjal.png" alt="Kesehatan Ginjal">
-                            Kesehatan Ginjal
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/anak.png" alt="Kesehatan Anak">
-                            Kesehatan Anak
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <div class="card-container">
+                
+                <div class="card">
+                    <img src="assets/call-ambulance.png" alt="Call Ambulance Icon" class="card-icon">
+                    <h2>Call Ambulance</h2>
+                    <ul class="card-list">
+                        <li>
+                            <a href="https://wa.me/+6285930204792">
+                                <img src="assets/ambulan-pasien-stabil.png" alt="Ambulan Pasien Stabil">
+                                Ambulan Pasien Stabil
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/+6281333466955">
+                                <img src="assets/ambulan-gawat-darurat.png" alt="Ambulan Gawat Darurat">
+                                Ambulan Gawat Darurat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="card">
+                    <img src="assets/disease-info.png" alt="Disease Info Icon" class="card-icon">
+                    <h2>Disease Information</h2>
+                    <ul class="card-list">
+                        <li>
+                            <a href="jantung.html">
+                                <img src="assets/jantung.png" alt="Kesehatan Jantung">
+                                Kesehatan Jantung
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ginjal.html">
+                                <img src="assets/ginjal.png" alt="Kesehatan Ginjal">
+                                Kesehatan Ginjal
+                            </a>
+                        </li>
+                        <li>
+                             <a href="anak.html">
+                                <img src="assets/anak.png" alt="Kesehatan Anak">
+                                Kesehatan Anak
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-            <!-- Hello Nurse Section -->
-            <div class="card">
-                <img src="assets/hello-nurse.png" alt="Hello Nurse Icon">
-                <h2>Hello Nurse</h2>
-                <ul>
-                    <li>
-                        <a href="https://wa.me/+6285930204792">
-                            <img src="assets/call-mas-slamet.png" alt="Call Nurse Slamet">
-                            Nurse Slamet
-                        </a>
-                    </li>
-                </ul>
+                <div class="card">
+                    <img src="assets/hello-nurse.png" alt="Hello Nurse Icon" class="card-icon">
+                    <h2>Hello Nurse</h2>
+                    <ul class="card-list">
+                        <li>
+                            <a href="https://wa.me/+6285930204792">
+                                <img src="assets/call-mas-slamet.png" alt="Call Nurse Slamet">
+                                Nurse Slamet
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
-
     </main>
 
     <footer>
